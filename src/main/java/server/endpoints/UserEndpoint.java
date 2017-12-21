@@ -111,7 +111,6 @@ public class UserEndpoint {
      * @return Response ordersAsJson
      * Retrieves all orders placed by the user by using the id as a parameter.
      */
-    @Secured
     @GET
     @Path("/getOrdersById/{id}")
     public Response getOrdersById(@PathParam("id") int id) {
@@ -143,7 +142,7 @@ public class UserEndpoint {
      * @return Response itemsAsJson
      * Retrieves all items in the database to be used for creating a menu in the client.
      */
-    // @Secured
+
     @GET
     @Path("/getItems")
     public Response getItems() {

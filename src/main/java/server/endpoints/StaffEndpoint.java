@@ -24,7 +24,7 @@ public class StaffEndpoint {
      * @return Response ordersAsJson
      * Retrieves all orders in the system to be used for the staff side of a client.
      */
-    //Secured
+
     @GET
     @Path("/getOrders")
     public Response getOrders() {

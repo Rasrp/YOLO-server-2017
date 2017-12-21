@@ -53,7 +53,7 @@ public class RootEndpoint {
      * @return Plain text based on whether or not logout was successful.
      * Logout for users, deletes token in database (as well as all previous ones if they forgot to logout in an earlier visit).
      */
-    @Secured
+
     @POST
     @Path("/logout")
     public Response logout(String userAsJson) {
