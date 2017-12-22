@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd2ab828-cdbd-45ca-924e-b1003acc0613" name="Default" comment="" />
+    <list default="true" id="dd2ab828-cdbd-45ca-924e-b1003acc0613" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/server/utility/Encryption.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+              <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -58,12 +61,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthenticationFilter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AuthenticationFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/server/authentication/AuthenticationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-733">
               <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yoloDB.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Arkitektur_documents/yoloDB.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <folding>
+                <marker date="1513800405102" expanded="true" signature="393:457" ph="/*!40101 SET... " />
+                <marker date="1513800405102" expanded="true" signature="459:525" ph="/*!40101 SET... " />
+                <marker date="1513800405102" expanded="true" signature="527:591" ph="/*!40101 SET... " />
+                <marker date="1513800405102" expanded="true" signature="593:619" ph="/*!40101 SET... " />
+                <marker date="1513800405102" expanded="true" signature="621:703" ph="/*!40014 SET... " />
+                <marker date="1513800405102" expanded="true" signature="705:779" ph="/*!40101 SET... " />
+                <marker date="1513800405102" expanded="true" signature="781:836" ph="/*!40111 SET... " />
+                <marker date="1513800405102" expanded="true" signature="926:954" ph="DROP TABLE I... " />
+                <marker date="1513800405102" expanded="true" signature="957:1241" ph="CREATE TABLE... Items" />
+                <marker date="1513800405102" expanded="true" signature="1271:1315" ph="/*!40000 ALT... " />
+                <marker date="1513800405102" expanded="true" signature="1318:1422" ph="INSERT INTO `Items`... " />
+                <marker date="1513800405102" expanded="true" signature="1425:1468" ph="/*!40000 ALT... " />
+                <marker date="1513800405102" expanded="true" signature="1583:1621" ph="DROP TABLE I... " />
+                <marker date="1513800405102" expanded="true" signature="1624:2154" ph="CREATE TABLE... Order_has_Items" />
+                <marker date="1513800405102" expanded="true" signature="2246:2275" ph="DROP TABLE I... " />
+                <marker date="1513800405102" expanded="true" signature="2278:2750" ph="CREATE TABLE... Orders" />
+                <marker date="1513800405102" expanded="true" signature="2841:2869" ph="DROP TABLE I... " />
+                <marker date="1513800405102" expanded="true" signature="2872:3305" ph="CREATE TABLE... Token" />
+                <marker date="1513800405102" expanded="true" signature="3335:3379" ph="/*!40000 ALT... " />
+                <marker date="1513800405102" expanded="true" signature="3382:3811" ph="INSERT INTO `Token`... " />
+                <marker date="1513800405102" expanded="true" signature="3814:3857" ph="/*!40000 ALT... " />
+                <marker date="1513800405102" expanded="true" signature="3962:3990" ph="DROP TABLE I... " />
+                <marker date="1513800405102" expanded="true" signature="3993:4318" ph="CREATE TABLE... Users" />
+                <marker date="1513800405102" expanded="true" signature="4348:4392" ph="/*!40000 ALT... " />
+                <marker date="1513800405102" expanded="true" signature="4395:4809" ph="INSERT INTO `Users`... " />
+                <marker date="1513800405102" expanded="true" signature="4812:4855" ph="/*!40000 ALT... " />
+                <marker date="1513800405102" expanded="true" signature="4875:4915" ph="/*!40111 SET... " />
+                <marker date="1513800405102" expanded="true" signature="4917:4955" ph="/*!40101 SET... " />
+                <marker date="1513800405102" expanded="true" signature="4957:5015" ph="/*!40014 SET... " />
+                <marker date="1513800405102" expanded="true" signature="5017:5079" ph="/*!40101 SET... " />
+                <marker date="1513800405102" expanded="true" signature="5081:5145" ph="/*!40101 SET... " />
+                <marker date="1513800405102" expanded="true" signature="5147:5209" ph="/*!40101 SET... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,16 +161,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1995">
               <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Log.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/utility/Log.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -190,6 +226,16 @@
             <path>
               <item name="YOLO-server-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="YOLO-server-2017" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YOLO-server-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YOLO-server-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="Arkitektur_documents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YOLO-server-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YOLO-server-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="project management" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="YOLO-server-2017" type="b2602c69:ProjectViewProjectNode" />
@@ -505,16 +551,15 @@
       <option name="presentableId" value="Default" />
       <updated>1513800814896</updated>
       <workItem from="1513800816228" duration="2904000" />
-      <workItem from="1513804736910" duration="10442000" />
+      <workItem from="1513804736910" duration="12062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13346000" />
+    <option name="totallyTimeSpent" value="14966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24317618" sideWeight="0.17083333" order="7" side_tool="true" content_ui="tabs" />
@@ -536,7 +581,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24317618" sideWeight="0.82916665" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -659,7 +704,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/server/utility/Encryption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -737,6 +782,47 @@
         <state relative-caret-position="-733">
           <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arkitektur_documents/yoloDB.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <marker date="1513800405102" expanded="true" signature="393:457" ph="/*!40101 SET... " />
+            <marker date="1513800405102" expanded="true" signature="459:525" ph="/*!40101 SET... " />
+            <marker date="1513800405102" expanded="true" signature="527:591" ph="/*!40101 SET... " />
+            <marker date="1513800405102" expanded="true" signature="593:619" ph="/*!40101 SET... " />
+            <marker date="1513800405102" expanded="true" signature="621:703" ph="/*!40014 SET... " />
+            <marker date="1513800405102" expanded="true" signature="705:779" ph="/*!40101 SET... " />
+            <marker date="1513800405102" expanded="true" signature="781:836" ph="/*!40111 SET... " />
+            <marker date="1513800405102" expanded="true" signature="926:954" ph="DROP TABLE I... " />
+            <marker date="1513800405102" expanded="true" signature="957:1241" ph="CREATE TABLE... Items" />
+            <marker date="1513800405102" expanded="true" signature="1271:1315" ph="/*!40000 ALT... " />
+            <marker date="1513800405102" expanded="true" signature="1318:1422" ph="INSERT INTO `Items`... " />
+            <marker date="1513800405102" expanded="true" signature="1425:1468" ph="/*!40000 ALT... " />
+            <marker date="1513800405102" expanded="true" signature="1583:1621" ph="DROP TABLE I... " />
+            <marker date="1513800405102" expanded="true" signature="1624:2154" ph="CREATE TABLE... Order_has_Items" />
+            <marker date="1513800405102" expanded="true" signature="2246:2275" ph="DROP TABLE I... " />
+            <marker date="1513800405102" expanded="true" signature="2278:2750" ph="CREATE TABLE... Orders" />
+            <marker date="1513800405102" expanded="true" signature="2841:2869" ph="DROP TABLE I... " />
+            <marker date="1513800405102" expanded="true" signature="2872:3305" ph="CREATE TABLE... Token" />
+            <marker date="1513800405102" expanded="true" signature="3335:3379" ph="/*!40000 ALT... " />
+            <marker date="1513800405102" expanded="true" signature="3382:3811" ph="INSERT INTO `Token`... " />
+            <marker date="1513800405102" expanded="true" signature="3814:3857" ph="/*!40000 ALT... " />
+            <marker date="1513800405102" expanded="true" signature="3962:3990" ph="DROP TABLE I... " />
+            <marker date="1513800405102" expanded="true" signature="3993:4318" ph="CREATE TABLE... Users" />
+            <marker date="1513800405102" expanded="true" signature="4348:4392" ph="/*!40000 ALT... " />
+            <marker date="1513800405102" expanded="true" signature="4395:4809" ph="INSERT INTO `Users`... " />
+            <marker date="1513800405102" expanded="true" signature="4812:4855" ph="/*!40000 ALT... " />
+            <marker date="1513800405102" expanded="true" signature="4875:4915" ph="/*!40111 SET... " />
+            <marker date="1513800405102" expanded="true" signature="4917:4955" ph="/*!40101 SET... " />
+            <marker date="1513800405102" expanded="true" signature="4957:5015" ph="/*!40014 SET... " />
+            <marker date="1513800405102" expanded="true" signature="5017:5079" ph="/*!40101 SET... " />
+            <marker date="1513800405102" expanded="true" signature="5081:5145" ph="/*!40101 SET... " />
+            <marker date="1513800405102" expanded="true" signature="5147:5209" ph="/*!40101 SET... " />
+          </folding>
         </state>
       </provider>
     </entry>
